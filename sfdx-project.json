@@ -1,23 +1,25 @@
 {
-    "packageDirectories": [
-        {
-            "path": "force-app",
-            "default": true,
-            "package": "DreamhouseLWC",
-            "versionName": "Summer '22",
-            "versionNumber": "55.0.0.NEXT",
-            "unpackagedMetadata": {
-                "path": ".\\unpackaged"
-            }
-        },
-        {
-            "path": ".\\unpackaged",
-            "default": false
-        }
-    ],
-    "namespace": "",
-    "sourceApiVersion": "55.0",
-    "packageAliases": {
-        "DreamhouseLWC": "0Ho8d0000008OcSCAU"
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "DreamhouseLWC",
+      "versionName": "Summer '22",
+      "versionNumber": "55.0.0.NEXT",
+      "unpackagedMetadata": {
+        "path": "unpackaged"
+      }
+    },
+    {
+      "path": "unpackaged",
+      "default": false
     }
+  ],
+  "namespace": "",
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "DreamhouseLWC": "0Ho8d0000008OcSCAU",
+    "DreamhouseLWC@55.0.0-1": "04t8d0000009ZqFAAU",
+    "DreamhouseLWC@55.0.0-2": "04t8d0000009cUEAAY"
+  }
 }

@@ -2,6 +2,27 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <groupingStringEnum>ContractStatusCode</groupingStringEnum>
     <sorted>false</sorted>
+    <!-- Standard Values Cannot Be Removed -->
+    <standardValue>
+        <fullName>In Approval Process</fullName>
+        <default>false</default>
+        <label>In Approval Process</label>
+        <groupingString>InApproval</groupingString>
+    </standardValue>
+    <!-- Standard Values Cannot Be Removed -->
+    <standardValue>
+        <fullName>Activated</fullName>
+        <default>false</default>
+        <label>Activated</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <!-- Standard Values Cannot Be Removed -->
+    <standardValue>
+        <fullName>Draft</fullName>
+        <default>false</default>
+        <label>Draft</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
     <standardValue>
         <fullName>Pending_Approval</fullName>
         <default>false</default>
